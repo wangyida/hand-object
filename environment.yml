@@ -1,0 +1,36 @@
+name: handobject_env
+channels:
+  - open3d-admin
+  - menpo
+  - pytorch
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - cupy
+  - joblib
+  - opencv
+  - open3d=0.9
+  - pandas
+  - python=3.7
+  - pyyaml
+  - matplotlib
+  - moviepy
+  - numpy
+  - pillow
+  - pytorch=1.4
+  - scikit-image
+  - torchvision
+  - trimesh
+  - tqdm
+  - cupy
+  - pip
+  - plotly
+  - pythreejs
+  - pip:
+    - chumpy
+    - kornia==0.2
+    - opencv-python
+    - git+https://github.com/hassony2/manopth.git
+    - git+https://github.com/hassony2/libyana@v0.2.0
+    - neural-renderer-pytorch

@@ -1,0 +1,7 @@
+torch>=1.6.0
+open3d>=0.9
+chumpy
+kornia==0.2
+git+https://github.com/hassony2/manopth.git
+git+https://github.com/hassony2/libyana@v0.2.0
+git+https://github.com/wangyida/neural_renderer.git
