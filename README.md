@@ -5,22 +5,11 @@ The original codes are implimented by Hasson et. al. from Leveraging Photometric
 - [Project page](https://hassony2.github.io/handobjectconsist.html)
 - [Paper](http://arxiv.org/abs/2004.13449)
 
-### Table of Content
-
-- [Setup](#setup)
-  - [Download and install code](#download-and-install-code)
-  - [Download datasets](#download-datasets)
-- [Demo](#demo)
-- [Training](#training)
-  - [Train model for joint hand-object pose estimation](#baseline-model-for-joint-hand-object-pose-estimation)
-  - [Train in sparsely annotated setting on FPHAB dataset](#train-in-sparsely-annotated-setting)
-- [Acknowledgements](#acknowledgement)
-
 
 # Setup
 The current project assumes that the PyTorch version is higher than 1.6
 
-### Install other open-source tools
+### Install dependencies
 ```
 pip3 install -r requirements.txt
 ```
@@ -31,7 +20,6 @@ pip3 install -r requirements.txt
 - Create an account by clicking *Sign Up* and provide your information
 - Download Models and Code (the downloaded file should have the format mano_v*_*.zip). Note that all code and data from this download falls under the [MANO license](http://mano.is.tue.mpg.de/license).
 - unzip and copy the content of the *models* folder into the `assets/mano` folder
-
 
 - Your structure should look like this:
 
