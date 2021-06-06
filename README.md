@@ -99,6 +99,8 @@ This will create a file 'pred.zip' ready for upload to the [codalab challenge](h
 
 - Download the [HO3D-v2](https://files.icg.tugraz.at/d/76661ed06445490ab21c/) dataset.
 
+- Download 3D [object](https://rse-lab.cs.washington.edu/projects/posecnn/) to a folder named 'models'.
+
 - launch training using `python trainmeshreg` and providing all arguments as in `releasemodels/ho3dv2/realonly/opt.txt`
 
 # Demo
@@ -117,7 +119,7 @@ This script loads three models and visualizes their predictions on samples from 
 
 It produces images such as the following:
 
-![image](readme_images/with_and_without_photo_consist.png)
+![image](readme_assets/with_and_without_photo_consist.png)
 
 Similar visualization can also be produced from HO3D v2 dataset
 
