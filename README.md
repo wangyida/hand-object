@@ -117,7 +117,7 @@ This script loads three models and visualizes their predictions on samples from 
 
 It produces images such as the following:
 
-![image](readme_assets/with_and_without_photo_consist.png)
+![image](readme_images/with_and_without_photo_consist.png)
 
 Similar visualization can also be produced from HO3D v2 dataset
 
